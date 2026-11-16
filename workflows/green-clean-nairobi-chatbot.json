@@ -680,17 +680,17 @@
         "operation": "edit",
         "owner": {
           "__rl": true,
-          "value": "YOUR_GITHUB_USERNAME",
+          "value": "art-lmk",
           "mode": "name"
         },
         "repository": {
           "__rl": true,
-          "value": "YOUR_REPO_NAME",
+          "value": "NaiSafi",
           "mode": "name"
         },
         "filePath": "workflows/green-clean-nairobi-chatbot.json",
-        "fileContent": "={{ $json.fileContent }}",
-        "commitMessage": "={{ $json.commitMessage }}"
+        "fileContent": "=={{ $json.fileContent }}",
+        "commitMessage": "=={{ $json.commitMessage }}"
       },
       "id": "70d2a1c9-88b3-4f9f-9f49-160bdf35ec73",
       "name": "Auto-Deploy: Push to GitHub",
@@ -700,7 +700,13 @@
         800,
         1664
       ],
-      "webhookId": "63fc36f0-b9d4-4f53-bfa8-d62a4ac60bfc"
+      "webhookId": "63fc36f0-b9d4-4f53-bfa8-d62a4ac60bfc",
+      "credentials": {
+        "githubApi": {
+          "id": "rZFiGrIrIe8BxaTn",
+          "name": "GitHub account"
+        }
+      }
     }
   ],
   "connections": {
