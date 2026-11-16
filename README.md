@@ -12,3 +12,7 @@ An automated conversational analytics workflow built in **n8n** for Nairobi's **
 
 ## Repository Structure
 - `workflows/green-clean-nairobi-chatbot.json` — Exported n8n workflow definition (auto-synced via n8n Trigger).
+
+  
+# Automated n8n-to-GitHub Version Control Pipeline #
+A self-updating CI/CD workflow branch built in n8n that monitors workflow save and activation events, dynamically fetches the latest workflow JSON definition via the n8n REST API, formats the structure, and automatically commits timestamped backups directly to a GitHub repository without interrupting live user chat sessions
