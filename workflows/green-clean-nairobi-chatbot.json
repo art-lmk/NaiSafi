@@ -632,8 +632,8 @@
       "type": "n8n-nodes-base.n8nTrigger",
       "typeVersion": 1,
       "position": [
-        80,
-        1664
+        -96,
+        1056
       ]
     },
     {
@@ -651,8 +651,8 @@
       "type": "n8n-nodes-base.n8n",
       "typeVersion": 1,
       "position": [
-        320,
-        1664
+        96,
+        1248
       ],
       "credentials": {
         "n8nApi": {
@@ -670,8 +670,8 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        560,
-        1664
+        368,
+        1440
       ]
     },
     {
@@ -697,8 +697,8 @@
       "type": "n8n-nodes-base.github",
       "typeVersion": 1,
       "position": [
-        800,
-        1664
+        640,
+        1616
       ],
       "webhookId": "63fc36f0-b9d4-4f53-bfa8-d62a4ac60bfc",
       "credentials": {
@@ -707,6 +707,21 @@
           "name": "GitHub account"
         }
       }
+    },
+    {
+      "parameters": {
+        "content": "\nAutomated n8n-to-GitHub Version Control Pipeline: A self-updating CI/CD workflow branch built in n8n that monitors workflow save and activation events, dynamically fetches the latest workflow JSON definition via the n8n REST API, formats the structure, and automatically commits timestamped backups directly to a GitHub repository without interrupting live user chat sessions",
+        "height": 144,
+        "width": 992
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1216,
+        1040
+      ],
+      "typeVersion": 1,
+      "id": "36c26871-455b-409d-8fe5-4442424ef270",
+      "name": "Sticky Note"
     }
   ],
   "connections": {
